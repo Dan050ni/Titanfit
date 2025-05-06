@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form {
+    background-color: white;
+    padding: 40px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 320px;
+  }
+  
+  .form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  .form button {
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .form button:hover {
+    background-color: #000;
+    color: white;
+  }
+  
+  .form p {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .form a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .home-container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px; /* Espacio uniforme entre botones */
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .menu-btn {
+    width: 90%; /* Botones más anchos */
+    padding: 12px;
+    border: 2px solid black;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 6px; /* Estética mejorada */
+  }
+  
+  .menu-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .home-main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+  }
+  .home-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .home-content h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .home-content ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .home-content li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  
