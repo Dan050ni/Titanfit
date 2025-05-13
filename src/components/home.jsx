@@ -21,12 +21,34 @@ const Home = () => {
       <main className="home-main">
         <div className="home-content">
           <h1>¡Bienvenido a Titan-fit!</h1>
-          <ul>
-            <li><strong>Bienvenida personalizada:</strong> ¡Hola atleta! Prepárate para llevar tu entrenamiento al siguiente nivel.</li>
-            <li><strong>Actividades recientes:</strong> Nuevas rutinas de fuerza y clases de HIIT añadidas esta semana.</li>
-            <li><strong>Foros destacados:</strong> Únete al debate sobre nutrición post-entreno en nuestra comunidad.</li>
-            <li><strong>Eventos próximos:</strong> Competencia interna de levantamiento – ¡Inscríbete antes del viernes!</li>
-          </ul>
+
+          <div className="section-block">
+            <h3>Bienvenida personalizada</h3>
+            <p>
+              ¡Hola atleta! Prepárate para llevar tu entrenamiento al siguiente nivel con el apoyo de nuestra comunidad.
+            </p>
+          </div>
+
+          <div className="section-block">
+            <h3>Actividades recientes</h3>
+            <p>
+              Hemos añadido nuevas rutinas de fuerza y clases de HIIT esta semana para mantenerte en movimiento y motivado.
+            </p>
+          </div>
+
+          <div className="section-block">
+            <h3>Foros destacados</h3>
+            <p>
+              Únete al debate sobre nutrición post-entreno y comparte tus experiencias con otros miembros.
+            </p>
+          </div>
+
+          <div className="section-block">
+            <h3>Eventos próximos</h3>
+            <p>
+              ¡Participa en la competencia interna de levantamiento! Inscríbete antes del viernes y demuestra tu progreso.
+            </p>
+          </div>
         </div>
       </main>
     </div>

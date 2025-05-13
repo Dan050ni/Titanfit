@@ -21,11 +21,27 @@ const Servicios = () => {
       <main className="home-main">
         <div className="home-content">
           <h1>Servicios para Miembros</h1>
-          <ul>
-            <li><strong>Actividades exclusivas:</strong> Acceso a clases especiales, entrenamientos premium y desafíos mensuales.</li>
-            <li><strong>Talleres y webinars:</strong> Sesiones en vivo con entrenadores, nutricionistas y especialistas.</li>
-            <li><strong>Recursos descargables:</strong> Guías de entrenamiento, recetas saludables y rutinas imprimibles.</li>
-          </ul>
+
+          <div className="section-block">
+            <h3>Actividades exclusivas</h3>
+            <p>
+              Acceso a clases especiales, entrenamientos premium y desafíos mensuales diseñados para mejorar tu rendimiento y motivación.
+            </p>
+          </div>
+
+          <div className="section-block">
+            <h3>Talleres y webinars</h3>
+            <p>
+              Participa en sesiones en vivo con entrenadores, nutricionistas y especialistas del bienestar físico y mental.
+            </p>
+          </div>
+
+          <div className="section-block">
+            <h3>Recursos descargables</h3>
+            <p>
+              Descarga guías de entrenamiento, recetas saludables, rutinas personalizadas e imprimibles para seguir en casa o en el gimnasio.
+            </p>
+          </div>
         </div>
       </main>
     </div>

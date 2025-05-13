@@ -21,24 +21,27 @@ const AcercaDe = () => {
       <main className="home-main">
         <div className="home-content">
           <h1>Acerca de Titan-fit</h1>
-          <section style={{ marginBottom: '20px' }}>
+
+          <div className="section-block">
             <h3>Historia de la comunidad</h3>
             <p>
               Titan-fit nació con la visión de unir a personas apasionadas por el bienestar físico y mental. Desde nuestros inicios en 2020, hemos crecido como una comunidad comprometida con un estilo de vida saludable.
             </p>
-          </section>
-          <section style={{ marginBottom: '20px' }}>
+          </div>
+
+          <div className="section-block">
             <h3>Objetivo y valores</h3>
             <p>
               Nuestro objetivo es fomentar el crecimiento personal a través del ejercicio, la disciplina y el apoyo comunitario. Valoramos la constancia, la superación, el respeto y la inclusión.
             </p>
-          </section>
-          <section>
+          </div>
+
+          <div className="section-block">
             <h3>Equipo organizador</h3>
             <p>
               Contamos con un equipo de entrenadores certificados, nutricionistas y líderes de comunidad comprometidos con tu progreso. Cada miembro trabaja para que Titan-fit sea más que un gimnasio: una familia.
             </p>
-          </section>
+          </div>
         </div>
       </main>
     </div>
